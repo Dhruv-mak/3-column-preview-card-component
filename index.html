@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="flex justify-center items-center flex-col md:h-screen">
+  <main class="flex flex-col mx-5 my-10 font-lexend md:flex-row rounded-lg overflow-hidden md:max-w-[750px] max-w-[410px] shadow-lg">
+    <section class="bg-bright_orange p-10 flex flex-col justify-between">
+      <img src="./images/icon-sedans.svg" alt="something" class="pb-3 w-16">
+      <h1 class="text-3xl uppercase text-very_light_gray font-bold py-3 font-shoulder">Sedans</h1>
+      <p class="text-transparent_white py-3">
+        Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+        or on your next road trip.
+      </p>
+      <button class="bg-very_light_gray rounded-full py-2 px-5 text-bright_orange my-3">Learn More</button>
+    </section>
+
+    <section class="bg-dark_cyan p-10 flex flex-col justify-between">
+      <img src="./images/icon-suvs.svg" alt="something" class="pb-3 w-16">
+      <h1 class="text-3xl uppercase text-very_light_gray font-bold py-3 font-shoulder">SUVs</h1>
+      <p class="text-transparent_white py-3">
+        Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+        and off-road adventures.
+      </p>
+      <button class="bg-very_light_gray rounded-full py-2 px-5 text-dark_cyan my-3">Learn More</button>
+    </section>
+
+    <section class="bg-very_dark_cyan p-10 flex flex-col">
+      <img src="./images/icon-luxury.svg" alt="something" class="pb-3 w-16">
+      <h1 class="text-3xl uppercase text-very_light_gray font-bold py-3 font-shoulder">Luxury</h1>
+      <p class="text-transparent_white py-3">
+        Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+        rental and arrive in style.
+      </p>
+      <button class="bg-very_light_gray rounded-full py-2 px-5 text-very_dark_cyan my-3">Learn More</button>
+    </section>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/niklaus-mikealson/">Niklaus M</a>.
+    </div>
+  </footer>
+</body>
+
+</html>
